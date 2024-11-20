@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de la materia - U5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="head">
+        <nav class="headerPU> ">
+            <a href="index.html"> Inicio</a>
+            <a href="u1.html">Unidad 1</a>
+            <a href="u2.html">Unidad 2</a>
+            <a href="u3.html">Unidad 3</a>
+            <a href="u4.html">Unidad 4</a>
+            <a href="u5.html">Unidad 5</a>
+        </nav>
+    </header>
+    <main>
+        <center>
+            <div id="Modelo OSI">
+                <h1>Capas del modelo OSI</h1>
+                <h2>Capa Física</h2>
+                <p>La capa física coordina las funciones necesarias para transportar un flujo de bits a través de un medio físico.
+                    También define los procedimientos y funciones que deben realizar los dispositivos físicos y las interfaces para que se produzca la transmisión.
+                </p>
+                <h3>Características</h3>
+                <p><b>Representación de bits:</b> Los datos de la capa física consisten en un flujo de bits (secuencia de ceros o unos) sin interpretación.</p>
+                <b>Para poder transmitirse, los bits deben ser:</b>
+                <p>■Codificados en señales eléctricas u ópticas</p>
+                <p>■Velocidad de datos</p>
+                <p>■Sincronización de bits</p>
+                <p>■Configuración de línea</p>
+                <p>■Topología física: La topología define como se conectan los dispositivos para formar una red</p>
+                <p>■Modo de transmisión</p>
+                <img src="images/fisica.png" alt="fisica" width="250" height="200">
+                <h2>Capa de enlace de enlace de datos</h2>
+                <p>La capa de enlace de datos transforma la capa física, una instalación de transmisión básica, en un enlace confiable. Hace que la capa física parezca libre de errores a la capa superior (capa de red).</p>
+                <h3>Funciones</h3>
+                <p>■Enmarcado</p>
+                <p>■Direccionamiento físico</p>
+                <p>■Control de flujo</p>
+                <p>■Control de errores</p>
+                <p>■Control de acceso</p>
+                <img src="images/edatos.png" alt="datos">
+                <h2>Capa de red</h2>
+                <p>Es responsable de la entrega de un paquete desde el origen hasta el destino, posiblemente a través de múltiples redes (enlaces).</p>
+                <h3>Funciones</h3>
+                <p>■Direccionamiento lógico: Gestiona el problema de direccionamiento de forma local.</p>
+                <p>■Enrutamiento. Cuando se conectan redes o enlaces independientes para crear interredes (redes de redes) o una red grande, los dispositivos de conexión (llamados enrutadores)</p>
+                <img src="images/red.png" alt="red">
+                <h2>Capa de transporte</h2>
+                <p>Es responsable de la entrega de todo el mensaje de proceso a proceso.
+                    Garantiza que todo el mensaje llegue intacto y en orden, supervisando tanto el control de errores como el control de flujo en el nivel de origen a destino.
+                </p>
+                <h3>Funciones</h3>
+                <p>■Direccionamiento de punto de servicio</p>
+                <p>■Segmentación y reensamblado</p>
+                <p>■Control de conexión</p>
+                <p>■Orientada a la conexión</p>
+                <p>■Control de flujo</p>
+                <p>■Control de errores</p>
+                <img src="images/trnasporte.png" alt="transporte">
+                <h2>Capa de sesión</h2>
+                <p>Es el controlador del diálogo de red. Establece, mantiene y sincroniza la interacción entre los sistemas que se comunican.</p>
+                <h3>Funciones</h3>
+                <p>■Control de dialogo</p>
+                <p>■Sincronización del dialogo</p>
+                <img src="images/session.png" alt="sesión">
+                <h2>Capa de presentación</h2>
+                <p>La capa de presentación se ocupa de la sintaxis y la semántica de la información intercambiada entre dos sistemas. </p>
+                <img src="images/presenta.png" alt="presentación">
+                <h2>Capa de aplicación</h2>
+                <p>Permite al usuario, ya sea humano o software, acceder a la red.
+                    Proporciona interfaces de usuario y soporte para servicios como correo electrónico, acceso y transferencia remota de archivos, gestión de bases de datos compartidas y otros tipos de servicios de información distribuida.
+                </p>
+                <h3>Funciones</h3>
+                <p>■Terminal virtual de red</p>
+                <p>■Transferencia, acceso y gestión de archivos</p>
+                <p>■Servicios de correo</p>
+                <p>■Servicios de directorio</p>
+                <img src="images/aplica.png" alt="aplicaciones">
+            </div>
+            <div id="kahhot1">
+                <h1>Cuestionario Unidad 5</h1>
+                <iframe src="https://kahoot.it/challenge/07509431?challenge-id=ced2ea82-b8b3-417a-a77c-e5d8888ea198_1732070330413" width=900 height=500></iframe>
+            </div>
+        </center>
+    </main>
+</body>
+</html>

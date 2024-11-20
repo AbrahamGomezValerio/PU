@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de la materia - U3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="head">
+        <nav class="headerPU> ">
+            <a href="index.html"> Inicio</a>
+            <a href="u1.html">Unidad 1</a>
+            <a href="u2.html">Unidad 2</a>
+            <a href="u3.html">Unidad 3</a>
+            <a href="u4.html">Unidad 4</a>
+            <a href="u5.html">Unidad 5</a>
+    
+        </nav>
+    </header>
+<main>
+    <div id="Modulación">
+        <h1>Modulación</h1>
+        <h2>Técnicas de modulación analógica</h2>
+        <p><b>■Modulación AM:</b> La amplitud de la onda portadora varía proporcionalmente a la señal de información que se desea transmitir.
+            Este método es ampliamente utilizado en transmisiones de radio, especialmente en las bandas AM, aunque es más susceptible al ruido en comparación con otras técnicas.
+        </p>
+        <img src="images/AM.png" alt="AM">
+        <p><b>■Modulación FM:</b> consiste en variar la frecuencia de la onda portadora de acuerdo con la señal de entrada.
+            Este tipo de modulación es conocido por su mejor calidad de sonido y resistencia al ruido.
+        </p>
+        <img src="images/FM.png" alt="FM">
+        <h2>Técnicas de modulación digital</h2>
+        <p><b>■La modulación por desplazamiento de amplitud (ASK):</b> Es donde la amplitud de la señal portadora cambia entre niveles específicos para representar datos digitales, como los 0 y 1 binarios.</p>
+        <img src="images/ASK.png" alt="ASK">
+        <p><b>■La modulación por desplazamiento de frecuencia (FSK):</b> Utiliza frecuencias diferentes para representar los bits</p>
+        <img src="images/FSK.png" alt="FSK">
+        <p><b>■La modulación por desplazamiento de fase (PSK):</b> En la que la fase de la portadora se altera según los datos transmitidos. PSK es una opción popular en sistemas digitales debido a su eficiencia en el uso del espectro.</p>
+        <img src="images/PSK.png" alt="PSK">
+        <p><b>■La modulación de amplitud en cuadratura (QAM):</b> Combina cambios en amplitud y fase para transmitir múltiples bits simultáneamente, lo que maximiza la capacidad de datos en sistemas modernos como LTE y Wi-Fi.</p>
+        <img src="images/QAM.png" alt="QAM">
+        <h2>Conversación Analógico-Digital</h2>
+        <p>Esto se logra mediante tres pasos principales: muestreo, cuantización y codificación.
+            El muestreo implica tomar valores discretos de la señal analógica en intervalos regulares, lo que convierte una señal continua en una serie de puntos discretos.
+         <br>Luego, la cuantización asigna cada punto a un nivel predefinido, redondeando los valores originales al nivel más cercano. Finalmente, la codificación transforma estos niveles en códigos binarios que pueden ser procesados por sistemas digitales.
+        </p>
+        <img src="images/ConversorDA.jpg" alt="ConversorDA">
+        <h2>Códigos de línea</h2>
+        <p>Son técnicas de codificación utilizadas para preparar señales digitales para su transmisión. El código RZ (Return to Zero) representa un nivel lógico con una transición a un estado de referencia, mientras que NRZ (Non-Return to Zero) mantiene los niveles constantes sin transiciones intermedias. NRZ-L (Non-Return to Zero-Level) agrega la variación de niveles para distinguir entre los bits.
+            El código AMI es conocido por su capacidad de detección de errores, ya que invierte la polaridad de las marcas (1s) consecutivas.
+        </p>
+        <img src="images/CL.png" alt="CL">
+        <h2>Módem, estándares y protocolos</h2>
+        <p>Los módems son dispositivos que convierten señales digitales en analógicas (y viceversa) para su transmisión a través de medios.
+            Este proceso, conocido como modulación y demodulación, es fundamental en sistemas de comunicación tradicionales y modernas. <br>
+            
+            Los estándares y protocolos juegan un papel clave en garantizar la interoperabilidad entre diferentes dispositivos y sistemas.
+            Por ejemplo, protocolos como TCP/IP establecen las reglas para la transferencia de datos en redes como Internet, mientras que los estándares internaciona.
+        </p>
+    </div>
+    <div id="kahhot1">
+        <h1>Cuestionario Unidad 3</h1>
+        <iframe src="https://kahoot.it/challenge/07039695?challenge-id=ced2ea82-b8b3-417a-a77c-e5d8888ea198_1732073290479" width=900 height=500></iframe>
+
+    </div>
+</main>
+</body>
+</html>

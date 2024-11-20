@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de la materia - U4</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="head">
+        <nav class="headerPU> ">
+            <a href="index.html"> Inicio</a>
+            <a href="u1.html">Unidad 1</a>
+            <a href="u2.html">Unidad 2</a>
+            <a href="u3.html">Unidad 3</a>
+            <a href="u4.html">Unidad 4</a>
+            <a href="u5.html">Unidad 5</a>
+    
+        </nav>
+    </header>
+    <main>
+        <center>
+        <div id="Conmutación">
+            <h1>Conmutación</h1>
+            <p>Una red conmutada consta de una serie de nodos interconectados, llamados conmutadores. Los conmutadores son dispositivos capaces de crear conexiones temporales entre dos o más dispositivos vinculados al conmutador. </p>
+            <p>Los sistemas finales (dispositivos de comunicación) están etiquetados como A, B, C, D, etc., y los conmutadores están etiquetados como I, II, III, IV y V. Cada conmutador está conectado a múltiples enlaces.</p>
+            <img src="images/Conmutacion.png" alt="Comn">
+        </div>
+        <div id="Redes">
+            <h1>Redes de conmutación de circuito</h1>
+            <p>Consta de un conjunto de conmutadores conectados por enlaces físicos.
+                Una conexión entre dos estaciones es una ruta dedicada formada por uno o más enlaces. <br>
+                Una red conmutada por circuitos está formada por un conjunto de conmutadores conectados mediante enlaces físicos, en el que cada enlace está dividido en n canales.
+            </p>
+            <p>Hemos mostrado explícitamente los símbolos de multiplexación para enfatizar la división del enlace en canales, aunque la multiplexación se puede incluir implícitamente en la estructura de conmutación.
+                Aquí destacan varios puntos:
+                La conmutación de circuitos tiene lugar en la capa física.
+                Antes de iniciar la comunicación, las estaciones deben realizar una reserva de los recursos que se utilizarán durante la comunicación. 
+                Los datos transferidos entre dos estaciones no están empaquetados (transferencia de la señal a través de la capa física). 
+                Durante la transferencia de datos no se utiliza ningún tipo de direccionamiento. 
+            </p>
+            <img src="images/rredes.png" alt="redes">
+            <h3>Tres fases</h3>
+            <p>La comunicación real en una red de conmutación de circuitos requiere tres fases: establecimiento de la conexión, transferencia de datos y desconexión de la conexión.</p>
+            <p><b>■Fase de transferencia de datos:</b> Después del establecimiento del circuito dedicado (canales), las dos partes pueden transferir datos.</p>
+            <p><b>■Fase de desmontaje:</b> Cuando una de las partes necesita desconectarse, se envía una señal a cada conmutador para liberar los recursos.</p>
+            <img src="images/t3.png" alt="T3">
+            <h2>Multiplexación</h2>
+            <p>La multiplexación es una técnica que permite combinar múltiples señales de información en un solo canal de transmisión. Esto optimiza el uso del ancho de banda y reduce la necesidad de múltiples líneas físicas.</p>
+            <img src="images/multi.png" alt="multi">
+            <h3>TDM (División de tiempo)</h3>
+            <p>La multiplexación por división de tiempo (TDM) asigna intervalos de tiempo específicos a cada señal para que puedan compartir el mismo canal. 
+            <br>Cada usuario transmite su información en su “ranura de tiempo”, lo que maximiza la eficiencia del canal. Es común en sistemas digitales y permite un uso efectivo del ancho de banda disponible.</p>
+            <img src="images/TDM.png" alt="TDM">
+            <h3>FDM (División de Frecuencia)</h3>
+            <p>La multiplexación por división de frecuencia (FDM) divide el ancho de banda total en sub-bandas, cada una utilizada para una señal diferente. Esto es común en la transmisión de radio y televisión, donde diferentes canales operan en diferentes frecuencias.</p>
+            <img src="images/FDM.png" alt="FDM">
+            <h3>WDM (División de Longitud de Onda)</h3>
+            <p>La multiplexación por división de longitud de onda (WDM) se utiliza en comunicaciones de fibra óptica. Permite que múltiples señales ópticas se transmitan a través de una sola fibra utilizando diferentes longitudes de onda de luz. Esto aumenta significativamente la capacidad de transmisión.</p>
+            <img src="images/WDM.png" alt="WDM">
+            <h3>CDM (División de Código)</h3>
+            <p>La multiplexación por división de código (CDM), también conocida como CDMA, asigna un código único a cada señal. Esto permite que múltiples señales se transmitan simultáneamente en el mismo canal sin interferencia, utilizando técnicas de espectro expandido.</p>
+            <img src="images/CDMA.png" alt="CDMA">
+        </div>
+        <div id="kahhot1">
+            <h1>Cuestionario Unidad 4</h1>
+            <iframe src="https://kahoot.it/challenge/09976317?challenge-id=ced2ea82-b8b3-417a-a77c-e5d8888ea198_1732072541513" width=900 height=500></iframe>
+        </div>
+        </center>
+    </main>
+</body>
+</html>
